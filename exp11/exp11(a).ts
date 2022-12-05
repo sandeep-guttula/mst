@@ -13,9 +13,6 @@ interface Category {
     productName: "Mobile",
     productId: 1234,
     list: ["Samsung", "Motorola", "LG"],
-    getProductId: function (): string {
-      throw new Error("Function not implemented.");
-    }
   };
   const listProduct = productDetails.list;
   const pname: string = productDetails.productName;
